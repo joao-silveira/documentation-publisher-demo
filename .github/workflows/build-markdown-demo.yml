@@ -15,3 +15,9 @@ jobs:
           distribution: 'adopt'
       - name: Build project
         run: ./gradlew
+      - name: Deploy GitHub Pages 
+        uses: JamesIves/github-pages-deploy-action@4.1.1
+        with:
+          branch: gh-pages
+          folder: build/scripts/build/artifacts/build/docs
+        
