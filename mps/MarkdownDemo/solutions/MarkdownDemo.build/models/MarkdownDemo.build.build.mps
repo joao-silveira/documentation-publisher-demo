@@ -104,7 +104,7 @@
       </node>
     </node>
     <node concept="398rNT" id="2GW1sVkGHW0" role="1l3spd">
-      <property role="TrG5h" value="build" />
+      <property role="TrG5h" value="build_home" />
       <node concept="398BVA" id="2GW1sVkGHW7" role="398pKh">
         <ref role="398BVh" node="2GW1sVkGHVC" resolve="home" />
         <node concept="2Ry0Ak" id="2GW1sVkGHWc" role="iGT6I">
@@ -115,16 +115,16 @@
     <node concept="398rNT" id="2GW1sVkGHWn" role="1l3spd">
       <property role="TrG5h" value="platform" />
       <node concept="398BVA" id="2GW1sVkGHWx" role="398pKh">
-        <ref role="398BVh" node="2GW1sVkGHW0" resolve="build" />
+        <ref role="398BVh" node="2GW1sVkGHW0" resolve="build_home" />
         <node concept="2Ry0Ak" id="2GW1sVkGHWA" role="iGT6I">
           <property role="2Ry0Am" value="mbeddr" />
         </node>
       </node>
     </node>
     <node concept="398rNT" id="2GW1sVkGHWO" role="1l3spd">
-      <property role="TrG5h" value="mps" />
+      <property role="TrG5h" value="mps_home" />
       <node concept="398BVA" id="2GW1sVkGHX1" role="398pKh">
-        <ref role="398BVh" node="2GW1sVkGHW0" resolve="build" />
+        <ref role="398BVh" node="2GW1sVkGHW0" resolve="build_home" />
         <node concept="2Ry0Ak" id="2GW1sVkGHX6" role="iGT6I">
           <property role="2Ry0Am" value="mps" />
         </node>
@@ -139,7 +139,7 @@
     <node concept="2sgV4H" id="2GW1sVkGHXe" role="1l3spa">
       <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" resolve="mps" />
       <node concept="398BVA" id="2GW1sVkGK0J" role="2JcizS">
-        <ref role="398BVh" node="2GW1sVkGHWO" resolve="mps" />
+        <ref role="398BVh" node="2GW1sVkGHWO" resolve="mps_home" />
       </node>
     </node>
     <node concept="55IIr" id="2GW1sVkGHHz" role="auvoZ" />

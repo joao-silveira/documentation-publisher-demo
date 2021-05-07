@@ -6,9 +6,9 @@
   <property name="home" location="${basedir}/../.." />
   <property name="build" location="${home}/build" />
   <property name="platform" location="${build}/mbeddr" />
-  <property name="mps" location="${build}/mps" />
+  <property name="mps_home" location="${build}/mps" />
   <property name="artifacts.com.mbeddr.platform" location="${platform}" />
-  <property name="artifacts.mps" location="${mps}" />
+  <property name="artifacts.mps" location="${mps_home}" />
   <property file="${artifacts.com.mbeddr.platform}/build.properties" prefix="import.com.mbeddr.platform" />
   <property name="com.mbeddr.platform.major.version" value="${import.com.mbeddr.platform.com.mbeddr.platform.major.version}" />
   <property name="com.mbeddr.platform.minor.version" value="${import.com.mbeddr.platform.com.mbeddr.platform.minor.version}" />
@@ -196,7 +196,7 @@
       <macro name="home" path="${home}" />
       <macro name="build" path="${build}" />
       <macro name="platform" path="${platform}" />
-      <macro name="mps" path="${mps}" />
+      <macro name="mps_home" path="${mps_home}" />
     </generate>
   </target>
   

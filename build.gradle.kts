@@ -1,3 +1,5 @@
+import de.itemis.mps.gradle.BuildLanguages
+
 buildscript {
   configurations.classpath {
         resolutionStrategy.activateDependencyLocking()
@@ -25,10 +27,12 @@ val mbeddrDir = file("$buildDir/mbeddr")
 
 val mps = configurations.create("mps")
 val mbeddr = configurations.create("mbeddr")
+val ant_lib = configurations.create("ant_lib")
 
 dependencies {
   mps("com.jetbrains:mps:$version")
   mbeddr("com.mbeddr:mbeddr:feature-doc-markdown.$version")
+  ant_lib("org.apache.ant:ant-junit:1.10.1")
 }
 
 val resolveMps = tasks.register<Copy>("resolveMps") {
@@ -40,6 +44,8 @@ val resolveMbeddr = tasks.register<Copy>("resolveMbeddr") {
     from(mbeddr.resolve().map { zipTree(it) })
     into(mbeddrDir)
 }
+
+ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = project.configurations["ant_lib"].fileCollection({true})
 
 val buildMarkdownDemo = tasks.register<BuildLanguages>("buildMarkdownDemo") {
     dependsOn(resolveMps)
