@@ -50,7 +50,7 @@ ext["itemis.mps.gradle.ant.defaultScriptClasspath"] = project.configurations["an
 val buildMarkdownDemo = tasks.register<BuildLanguages>("buildMarkdownDemo") {
     dependsOn(resolveMps)
     dependsOn(resolveMbeddr)
-    script = file("$projectDir/build/scripts/build.xml")
+    script = file("$buildDir/scripts/build.xml")
 }
 
 defaultTasks.add(buildMarkdownDemo.name)
