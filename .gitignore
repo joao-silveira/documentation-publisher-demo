@@ -21,6 +21,9 @@ junit*.properties
 # Ignore Gradle build output directory
 build
 
-# MACOS
+# MacOs
 
 .DS_Store
+
+# Documentation generator
+doc_gen
