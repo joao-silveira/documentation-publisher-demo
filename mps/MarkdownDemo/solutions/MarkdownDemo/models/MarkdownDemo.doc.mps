@@ -147,7 +147,7 @@
       <node concept="1_0LV8" id="2GW1sVkGHGQ" role="1_0VJ0">
         <node concept="19SGf9" id="2GW1sVkGHGR" role="1_0LWR">
           <node concept="19SUe$" id="3usfPZ8ON9p" role="19SJt6">
-            <property role="19SUeA" value="For a long time mbeddr platform comes with a documentation language that supports a close integration with MPS languages and models. Besides plain text, chapters, sections and other means to scructure your documents it also allows referencing MPS nodes, or even embedding them into your document as images or text. Documents can be generated to HTML, Latex and now also Mardown.&#10;&#10;By the way, it might bot be noticeable, but this document itself was written with MPS documentation language and exported to Markdown :)." />
+            <property role="19SUeA" value="For a long time mbeddr platform comes with a documentation language that supports a close integration with MPS languages and models. Besides plain text, chapters, sections and other means to scructure your documents, it also allows referencing MPS nodes, or even embedding them into your document as images or text. Documents can be generated to HTML, Latex and now also Mardown.&#10;&#10;By the way, it might not be noticeable, but this document itself was written with MPS documentation language and exported to Markdown :)." />
           </node>
         </node>
       </node>
@@ -158,7 +158,7 @@
       <node concept="1_0LV8" id="3usfPZ8ONjW" role="1_0VJ0">
         <node concept="19SGf9" id="3usfPZ8ONjX" role="1_0LWR">
           <node concept="19SUe$" id="3usfPZ8ONjY" role="19SJt6">
-            <property role="19SUeA" value="Here are some markdown examples with mbeddr markdown language:" />
+            <property role="19SUeA" value="Here are some markdown examples from the mbeddr markdown language:" />
           </node>
         </node>
       </node>
