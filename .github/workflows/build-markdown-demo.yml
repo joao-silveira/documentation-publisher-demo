@@ -23,4 +23,5 @@ jobs:
         with:
           branch: gh-pages
           folder: mps/MarkdownDemo/solutions/MarkdownDemo/doc_gen
+          clean-exclude: 'index.html'
         
