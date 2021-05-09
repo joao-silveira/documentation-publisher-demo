@@ -87,6 +87,12 @@
       <concept id="3350625596579911728" name="com.mbeddr.doc.structure.Document" flags="ng" index="1_1swa">
         <property id="5572730672710143343" name="chapterStartIndex" index="yApLE" />
       </concept>
+      <concept id="5378658552262903588" name="com.mbeddr.doc.structure.Item" flags="ng" index="3X6T9g">
+        <child id="5378658552262903589" name="text" index="3X6T9h" />
+      </concept>
+      <concept id="5378658552262893169" name="com.mbeddr.doc.structure.ItemList" flags="ng" index="3X6WG5">
+        <child id="5378658552262986137" name="items" index="3Xp5NH" />
+      </concept>
     </language>
     <language id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base">
       <concept id="8375407818529178006" name="com.mbeddr.core.base.structure.TextBlock" flags="ng" index="OjmMv">
@@ -187,6 +193,7 @@
         <property role="1_0VJr" value="Links" />
         <node concept="3z_lpz" id="3usfPZ8ONn_" role="1_0VJ0">
           <property role="TrG5h" value="Links" />
+          <property role="3z_lpJ" value="true" />
           <node concept="OjmMv" id="3usfPZ8ONnB" role="3z_lpS">
             <node concept="19SGf9" id="3usfPZ8ONnC" role="OjmMu">
               <node concept="19SUe$" id="3usfPZ8ONnD" role="19SJt6" />
@@ -194,26 +201,129 @@
           </node>
           <node concept="2bctqb" id="3usfPZ8ONnF" role="3z_lpT" />
           <node concept="2NCZwO" id="3usfPZ8ONnH" role="3z_lpI">
-            <node concept="2NCMab" id="3usfPZ8ONnS" role="2NCMaf">
-              <ref role="2NCMaa" to="geq3:3usfPZ8ONm2" resolve="Links" />
+            <node concept="2NCMab" id="3usfPZ8ONwr" role="2NCMaf">
+              <ref role="2NCMaa" to="geq3:3usfPZ8ONwl" resolve="Links" />
             </node>
           </node>
         </node>
       </node>
-      <node concept="1_0VNX" id="3usfPZ8ONnV" role="1_0VJ0">
-        <property role="TrG5h" value="Links" />
-        <property role="1_0VJr" value="Links" />
-        <node concept="3z_lpz" id="3usfPZ8ONnW" role="1_0VJ0">
-          <property role="TrG5h" value="Links" />
-          <node concept="OjmMv" id="3usfPZ8ONnX" role="3z_lpS">
-            <node concept="19SGf9" id="3usfPZ8ONnY" role="OjmMu">
-              <node concept="19SUe$" id="3usfPZ8ONnZ" role="19SJt6" />
+      <node concept="1_0VNX" id="3usfPZ8ONwR" role="1_0VJ0">
+        <property role="TrG5h" value="Lists" />
+        <property role="1_0VJr" value="Lists" />
+        <node concept="1_0LV8" id="3usfPZ8ON_f" role="1_0VJ0">
+          <node concept="19SGf9" id="3usfPZ8ON_g" role="1_0LWR">
+            <node concept="19SUe$" id="3usfPZ8ON_h" role="19SJt6">
+              <property role="19SUeA" value="Ordered and unordered lists:" />
             </node>
           </node>
-          <node concept="2bctqb" id="3usfPZ8ONo0" role="3z_lpT" />
-          <node concept="2NCZwO" id="3usfPZ8ONo1" role="3z_lpI">
-            <node concept="2NCMab" id="3usfPZ8ONo2" role="2NCMaf">
-              <ref role="2NCMaa" to="geq3:3usfPZ8ONm2" resolve="Links" />
+        </node>
+        <node concept="3z_lpz" id="3usfPZ8ONwS" role="1_0VJ0">
+          <property role="TrG5h" value="Lists" />
+          <property role="3z_lpJ" value="true" />
+          <node concept="OjmMv" id="3usfPZ8ONwT" role="3z_lpS">
+            <node concept="19SGf9" id="3usfPZ8ONwU" role="OjmMu">
+              <node concept="19SUe$" id="3usfPZ8ONKf" role="19SJt6" />
+            </node>
+          </node>
+          <node concept="2bctqb" id="3usfPZ8ONwW" role="3z_lpT" />
+          <node concept="2NCZwO" id="3usfPZ8ONwX" role="3z_lpI">
+            <node concept="2NCMab" id="3usfPZ8ON_Z" role="2NCMaf">
+              <ref role="2NCMaa" to="geq3:3usfPZ8ONxt" resolve="Lists" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1_0VNX" id="3usfPZ8ONCb" role="1_0VJ0">
+        <property role="TrG5h" value="Html" />
+        <property role="1_0VJr" value="Html and markdown" />
+        <node concept="1_0LV8" id="3usfPZ8ONKI" role="1_0VJ0">
+          <node concept="19SGf9" id="3usfPZ8ONKJ" role="1_0LWR">
+            <node concept="19SUe$" id="3usfPZ8ONKK" role="19SJt6">
+              <property role="19SUeA" value="Most applications allow using Html in Markdown documents:" />
+            </node>
+          </node>
+        </node>
+        <node concept="3z_lpz" id="3usfPZ8ONJh" role="1_0VJ0">
+          <property role="TrG5h" value="Lists" />
+          <property role="3z_lpJ" value="true" />
+          <node concept="OjmMv" id="3usfPZ8ONJi" role="3z_lpS">
+            <node concept="19SGf9" id="3usfPZ8ONJj" role="OjmMu">
+              <node concept="19SUe$" id="3usfPZ8ONK2" role="19SJt6" />
+            </node>
+          </node>
+          <node concept="2bctqb" id="3usfPZ8ONJl" role="3z_lpT" />
+          <node concept="2NCZwO" id="3usfPZ8ONJm" role="3z_lpI">
+            <node concept="2NCMab" id="3usfPZ8ONLh" role="2NCMaf">
+              <ref role="2NCMaa" to="geq3:3usfPZ8OND2" resolve="Html" />
+            </node>
+          </node>
+        </node>
+        <node concept="1_0LV8" id="3usfPZ8ONCc" role="1_0VJ0">
+          <node concept="19SGf9" id="3usfPZ8ONCd" role="1_0LWR">
+            <node concept="19SUe$" id="3usfPZ8ONLR" role="19SJt6" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1_0VNX" id="3usfPZ8ONOU" role="1_0VJ0">
+      <property role="TrG5h" value="Clonclusion" />
+      <property role="1_0VJr" value="Conclusion" />
+      <node concept="1_0LV8" id="3usfPZ8OO9p" role="1_0VJ0">
+        <node concept="19SGf9" id="3usfPZ8OO9q" role="1_0LWR">
+          <node concept="19SUe$" id="3usfPZ8OO9r" role="19SJt6">
+            <property role="19SUeA" value="If you are still unfamiliar with MPS, mbeddr and/or Markdown, here are some links to get you started:" />
+          </node>
+        </node>
+      </node>
+      <node concept="3X6WG5" id="3usfPZ8OO7A" role="1_0VJ0">
+        <node concept="3X6T9g" id="3usfPZ8OO7B" role="3Xp5NH">
+          <node concept="OjmMv" id="3usfPZ8OO7C" role="3X6T9h">
+            <node concept="19SGf9" id="3usfPZ8OO7D" role="OjmMu">
+              <node concept="19SUe$" id="3usfPZ8OO88" role="19SJt6" />
+              <node concept="1hOBRO" id="3usfPZ8OO85" role="19SJt6">
+                <node concept="19SGf9" id="3usfPZ8OO86" role="$DsGW">
+                  <node concept="19SUe$" id="3usfPZ8OO87" role="19SJt6">
+                    <property role="19SUeA" value="https://github.com/mbeddr/mbeddr.core" />
+                  </node>
+                </node>
+              </node>
+              <node concept="19SUe$" id="3usfPZ8OO89" role="19SJt6">
+                <property role="19SUeA" value=" for Mbeddr github page" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3X6T9g" id="3usfPZ8OO8f" role="3Xp5NH">
+          <node concept="OjmMv" id="3usfPZ8OO8g" role="3X6T9h">
+            <node concept="19SGf9" id="3usfPZ8OO8h" role="OjmMu">
+              <node concept="19SUe$" id="3usfPZ8OO8y" role="19SJt6" />
+              <node concept="1hOBRO" id="3usfPZ8OO8v" role="19SJt6">
+                <node concept="19SGf9" id="3usfPZ8OO8w" role="$DsGW">
+                  <node concept="19SUe$" id="3usfPZ8OO8x" role="19SJt6">
+                    <property role="19SUeA" value="https://www.markdownguide.org" />
+                  </node>
+                </node>
+              </node>
+              <node concept="19SUe$" id="3usfPZ8OO8z" role="19SJt6">
+                <property role="19SUeA" value=" for Markdown basics" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3X6T9g" id="3usfPZ8OO8D" role="3Xp5NH">
+          <node concept="OjmMv" id="3usfPZ8OO8E" role="3X6T9h">
+            <node concept="19SGf9" id="3usfPZ8OO8F" role="OjmMu">
+              <node concept="19SUe$" id="3usfPZ8OO9S" role="19SJt6" />
+              <node concept="1hOBRO" id="3usfPZ8OO91" role="19SJt6">
+                <node concept="19SGf9" id="3usfPZ8OO92" role="$DsGW">
+                  <node concept="19SUe$" id="3usfPZ8OO93" role="19SJt6">
+                    <property role="19SUeA" value="https://www.jetbrains.com/mps/" />
+                  </node>
+                </node>
+              </node>
+              <node concept="19SUe$" id="3usfPZ8OO94" role="19SJt6">
+                <property role="19SUeA" value=" MPS homepage" />
+              </node>
             </node>
           </node>
         </node>
