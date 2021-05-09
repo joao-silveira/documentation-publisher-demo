@@ -16,11 +16,11 @@ To take part of all of these advantages we have implemented a markdown language 
 
 At the current moment this language supports all of the Markdown basic syntax ([https://www.markdownguide.org/basic-syntax/](https://www.markdownguide.org/basic-syntax/)) and for those cases where Markdown can't cover your needs you can always embed html code into your markdown document.
 # MbeddrDocumentation<a name="sid3115371428123433781"></a>
-For a long time mbeddr platform comes with a documentation language that supports a close integration with MPS languages and models. Besides plain text, chapters, sections and other means to scructure your documents it also allows referencing MPS nodes, or even embedding them into your document as images or text. Documents can be generated to HTML, Latex and now also Mardown.
+For a long time mbeddr platform comes with a documentation language that supports a close integration with MPS languages and models. Besides plain text, chapters, sections and other means to scructure your documents, it also allows referencing MPS nodes, or even embedding them into your document as images or text. Documents can be generated to HTML, Latex and now also Mardown.
 
-By the way, it might bot be noticeable, but this document itself was written with MPS documentation language and exported to Markdown :).
+By the way, it might not be noticeable, but this document itself was written with MPS documentation language and exported to Markdown :).
 # MarkdownExamples<a name="sid3115371428123433794"></a>
-Here are some markdown examples with mbeddr markdown language:
+Here are some markdown examples from the mbeddr markdown language:
 ## Emphasis<a name="sid4007147449076626372"></a>
 You can emphasis your text with either bold or italic:
 ![](../../img/MarkdownDemo_Emphasis.png)<a name="sid4007147449076626376"></a>
