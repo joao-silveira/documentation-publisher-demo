@@ -19,5 +19,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
           branch: gh-pages
-          folder: build/scripts/build/artifacts/build/docs
+          folder: mps/MarkdownDemo/solutions/MarkdownDemo/doc_gen
         
