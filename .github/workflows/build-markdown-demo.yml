@@ -1,7 +1,10 @@
 name: Markdown Demo
 
-on: [push]
-
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+  
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,3 +18,9 @@ jobs:
           distribution: 'adopt'
       - name: Build project
         run: ./gradlew
+      - name: Deploy GitHub Pages 
+        uses: JamesIves/github-pages-deploy-action@4.1.1
+        with:
+          branch: gh-pages
+          folder: mps/MarkdownDemo/solutions/MarkdownDemo/doc_gen
+        
