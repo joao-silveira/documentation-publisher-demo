@@ -2,9 +2,13 @@
 
 # Markdown language demo
 
-This project is a blueprint for generating static websites continously in your build chain, using Mbeddr documentation language, markdown and github pages.
+This project is a blueprint for continously generating static websites in your build chain, using Mbeddr documentation language, markdown and github pages.
 
 Its final result can be found [here](https://joao-silveira.github.io/markdown-language-demo/).
+
+## Why?
+
+
 
 ## Project Structure
 
