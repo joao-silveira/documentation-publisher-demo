@@ -1,6 +1,6 @@
 [![Documentation publisher](https://github.com/joao-silveira/markdown-language-demo/actions/workflows/build-markdown-demo.yml/badge.svg)](https://github.com/joao-silveira/markdown-language-demo/actions/workflows/build-markdown-demo.yml)
 
-# Markdown language demo
+# Documentation publisher demo
 
 This project is a blueprint for continously generating static websites in your build chain using Mbeddr documentation language, markdown and github pages.
 
