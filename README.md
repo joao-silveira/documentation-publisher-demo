@@ -1,3 +1,5 @@
+[![Markdown Demo](https://github.com/joao-silveira/markdown-language-demo/actions/workflows/build-markdown-demo.yml/badge.svg)](https://github.com/joao-silveira/markdown-language-demo/actions/workflows/build-markdown-demo.yml)
+
 # Markdown language demo
 
 This project is a blueprint for generating static websites continously in your build chain, using Mbeddr documentation language, markdown and github pages.
@@ -26,7 +28,21 @@ If everything goes right and your build is successfull you can just open the pro
 
 ### Github action
 
-The github action can be found under the [.github/workflows](.github/workflows) folder. Its most important part is in the following lines, responsible for publishing the website:
+The github action can be found under the [.github/workflows](.github/workflows) folder. The most important steps are described below.
+
+#### Building the project
+
+Exactly the same gradle command described above, it will setup the setup the MPS project and generate Markdown files from the documentation models.
+
+```
+   - name: Build project
+     run: ./gradlew
+```
+
+#### Publishing the website
+
+The following is responsible for publishing the website using the generated markdown as a source.
+
 ```
    - name: Deploy GitHub Pages 
         uses: JamesIves/github-pages-deploy-action@4.1.1
@@ -35,8 +51,19 @@ The github action can be found under the [.github/workflows](.github/workflows) 
           folder: mps/MarkdownDemo/solutions/MarkdownDemo/doc_gen
           clean-exclude: 'index.html'
 ```
+
 * `branch`: target branch to deploy the website to. In our case it is deployed to `gh-pages` in this very same repository.
 * `folder`: folder where to publish the website from. Corresponds to the folder where MPS generator places its output.
 * `clean-exclude`: our `index.html` is not generated, but written manually. To preserve it across publications we need to use this property otherwise default behaviour is to delete all files that do not exist in the source folder.
 
 For more details and settings on the github pages deployment page action visit [github-pages-deploy-action](https://github.com/JamesIves/github-pages-deploy-action).
+
+## Other Links and References
+
+Just a few more links that might prove usefull:
+
+* [Github Actions](https://docs.github.com/en/actions)
+* [Github Pages](https://docs.github.com/en/pages)
+* [Mbeddr github repository](https://github.com/mbeddr/mbeddr.core)
+* [MPS official website](https://www.jetbrains.com/mps/)
+
