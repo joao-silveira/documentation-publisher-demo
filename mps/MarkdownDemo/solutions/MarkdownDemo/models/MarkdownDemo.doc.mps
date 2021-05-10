@@ -40,9 +40,6 @@
       <concept id="2286331641395238583" name="com.mbeddr.doc.structure.ModelContentPointer" flags="ng" index="2NCZwO">
         <child id="2286331641395252236" name="elements" index="2NCMaf" />
       </concept>
-      <concept id="6386504476136420159" name="com.mbeddr.doc.structure.ImgRefWord" flags="ng" index="2Sbdz4">
-        <reference id="6386504476136420174" name="image" index="2SbdyP" />
-      </concept>
       <concept id="6386504476136554612" name="com.mbeddr.doc.structure.PathMapping" flags="ng" index="2SbEIf">
         <property id="6386504476136554614" name="mappedPath" index="2SbEId" />
         <reference id="6386504476136554613" name="pathDef" index="2SbEIe" />
@@ -199,6 +196,23 @@
                 <property role="19SUeA" value=" for Mbeddr github page" />
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="2uMxsEBzztE" role="1_0VJ0">
+        <node concept="19SGf9" id="2uMxsEBzztF" role="1_0LWR">
+          <node concept="19SUe$" id="2uMxsEBzztG" role="19SJt6">
+            <property role="19SUeA" value="The sources for this website can be found at " />
+          </node>
+          <node concept="1hOBRO" id="2uMxsEBzzud" role="19SJt6">
+            <node concept="19SGf9" id="2uMxsEBzzue" role="$DsGW">
+              <node concept="19SUe$" id="2uMxsEBzzuf" role="19SJt6">
+                <property role="19SUeA" value="https://github.com/joao-silveira/markdown-language-demo" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="2uMxsEBzzug" role="19SJt6">
+            <property role="19SUeA" value="." />
           </node>
         </node>
       </node>
@@ -376,7 +390,7 @@
       </node>
       <node concept="1_0VNX" id="GfNMM3dGhD" role="1_0VJ0">
         <property role="TrG5h" value="Code" />
-        <property role="1_0VJr" value="Code" />
+        <property role="1_0VJr" value="Code style" />
         <node concept="1_0LV8" id="GfNMM3dGiF" role="1_0VJ0">
           <node concept="19SGf9" id="GfNMM3dGiG" role="1_0LWR">
             <node concept="19SUe$" id="GfNMM3dGiH" role="19SJt6">
@@ -395,7 +409,14 @@
       </node>
       <node concept="1_0VNX" id="5xsBLDLBP$X" role="1_0VJ0">
         <property role="TrG5h" value="ImageParagraph" />
-        <property role="1_0VJr" value="ImageParagraph" />
+        <property role="1_0VJr" value="Embedding MPS nodes" />
+        <node concept="1_0LV8" id="2uMxsEBzzky" role="1_0VJ0">
+          <node concept="19SGf9" id="2uMxsEBzzkz" role="1_0LWR">
+            <node concept="19SUe$" id="2uMxsEBzzk$" role="19SJt6">
+              <property role="19SUeA" value="This is a real MPS node embedded into the document:&#10;" />
+            </node>
+          </node>
+        </node>
         <node concept="3z_lpz" id="5xsBLDLBRVH" role="1_0VJ0">
           <property role="TrG5h" value="JavaCode" />
           <property role="3z_lpJ" value="true" />
@@ -414,24 +435,9 @@
           </node>
         </node>
       </node>
-      <node concept="1_0VNX" id="5xsBLDLEW0J" role="1_0VJ0">
-        <property role="TrG5h" value="ImageRef" />
-        <property role="1_0VJr" value="ImageRef" />
-        <node concept="1_0LV8" id="5xsBLDLEW1Z" role="1_0VJ0">
-          <node concept="19SGf9" id="5xsBLDLEW20" role="1_0LWR">
-            <node concept="19SUe$" id="5xsBLDLEW21" role="19SJt6">
-              <property role="19SUeA" value="You can reference images like this " />
-            </node>
-            <node concept="2Sbdz4" id="5xsBLDLEW26" role="19SJt6">
-              <ref role="2SbdyP" node="5xsBLDLBRVH" resolve="JavaCode" />
-            </node>
-            <node concept="19SUe$" id="5xsBLDLEW27" role="19SJt6" />
-          </node>
-        </node>
-      </node>
       <node concept="1_0VNX" id="xxE$BM_9dQ" role="1_0VJ0">
         <property role="TrG5h" value="SectionRef" />
-        <property role="1_0VJr" value="SectionRef" />
+        <property role="1_0VJr" value="Referencing Sections" />
         <node concept="1_0LV8" id="xxE$BM_9oy" role="1_0VJ0">
           <node concept="19SGf9" id="xxE$BM_9oz" role="1_0LWR">
             <node concept="19SUe$" id="xxE$BM_9o$" role="19SJt6">
@@ -446,7 +452,7 @@
       </node>
       <node concept="1_0VNX" id="xxE$BMAhlI" role="1_0VJ0">
         <property role="TrG5h" value="ModelContentReference" />
-        <property role="1_0VJr" value="ModelContentReference" />
+        <property role="1_0VJr" value="Referencing MPS nodes" />
         <node concept="1_0LV8" id="xxE$BMAhxv" role="1_0VJ0">
           <node concept="19SGf9" id="xxE$BMAhxw" role="1_0LWR">
             <node concept="19SUe$" id="xxE$BMAhxL" role="19SJt6">
