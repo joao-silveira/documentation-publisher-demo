@@ -35,8 +35,8 @@ The github action can be found under the [.github/workflows](.github/workflows) 
           folder: mps/MarkdownDemo/solutions/MarkdownDemo/doc_gen
           clean-exclude: 'index.html'
 ```
-* `branch` target branch to deploy the website to. In our case it is deployed to `gh-pages` in this very same repository.
-* `folder` folder where to publish the website from. Corresponds to the folder where MPS generator places its output.
-* `clean-exclude` our `index.html` is not generated, but written manually. To preserve it across publications we need to use this property otherwise default behaviour is to delete all files that do not exist in the source folder.
+* `branch`: target branch to deploy the website to. In our case it is deployed to `gh-pages` in this very same repository.
+* `folder`: folder where to publish the website from. Corresponds to the folder where MPS generator places its output.
+* `clean-exclude`: our `index.html` is not generated, but written manually. To preserve it across publications we need to use this property otherwise default behaviour is to delete all files that do not exist in the source folder.
 
 For more details and settings on the github pages deployment page action visit [github-pages-deploy-action](https://github.com/JamesIves/github-pages-deploy-action).
