@@ -11,10 +11,9 @@
 	3. [Links](#sid797083449154782067)
 	4. [Code](#sid797083449154782313)
 	5. [ImageParagraph](#sid6367138909119273277)
-	6. [ImageRef](#sid6367138909120086063)
-	7. [SectionRef](#sid603951059623514998)
-	8. [ModelContentReference](#sid603951059623810414)
-	9. [FootNotes](#sid603951059622661712)
+	6. [SectionRef](#sid603951059623514998)
+	7. [ModelContentReference](#sid603951059623810414)
+	8. [FootNotes](#sid603951059622661712)
 
 
 # Intro<a name="sid4007147449076628794"></a>
@@ -25,6 +24,7 @@ If you are unfamiliar with Jetbrains MPS, mbeddr and/or Markdown, here are some 
 - [https://www.markdownguide.org](https://www.markdownguide.org) for Markdown basics
 - [https://github.com/mbeddr/mbeddr.core](https://github.com/mbeddr/mbeddr.core) for Mbeddr github page
 
+The sources for this website can be found at [https://github.com/joao-silveira/markdown-language-demo](https://github.com/joao-silveira/markdown-language-demo).
 # Markdown<a name="sid3115371428123433755"></a>
 Markdown is a widelly used markup language. It appeals to many people because of its readable syntax in its source form, portability and the adoption of it by many websites. Github as an example has already adopted markdwon support in all of its website, it can be used in commit messages, pull request descriptions or as the source for a Github page.
 
@@ -62,9 +62,9 @@ A link to your favourtie website [https://www.youtube.com/watch?v=oHg5SJYRHA0](h
 ## Code<a name="sid797083449154782313"></a>
 Denote words and paragraphs like `this`
 ## ImageParagraph<a name="sid6367138909119273277"></a>
+This is a real MPS node embedded into the document:
+
 ![Some Java Code](../../img/MarkdownDemo_JavaCode.png)<a name="sid6367138909119282925"></a>
-## ImageRef<a name="sid6367138909120086063"></a>
-You can reference images like this [4.5-A](#sid6367138909119282925)
 ## SectionRef<a name="sid603951059623514998"></a>
 Referencing a section also works like [Intro](#sid4007147449076628794)
 ## ModelContentReference<a name="sid603951059623810414"></a>
