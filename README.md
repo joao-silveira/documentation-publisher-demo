@@ -1,4 +1,4 @@
-[![Markdown Demo](https://github.com/joao-silveira/markdown-language-demo/actions/workflows/build-markdown-demo.yml/badge.svg)](https://github.com/joao-silveira/markdown-language-demo/actions/workflows/build-markdown-demo.yml)
+[![Documentation publisher](https://github.com/joao-silveira/markdown-language-demo/actions/workflows/build-markdown-demo.yml/badge.svg)](https://github.com/joao-silveira/markdown-language-demo/actions/workflows/build-markdown-demo.yml)
 
 # Markdown language demo
 
