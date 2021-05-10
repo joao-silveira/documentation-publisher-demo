@@ -63,7 +63,7 @@ The following is responsible for publishing the website using the generated mark
 * `folder`: folder where to publish the website from. Corresponds to the folder where MPS generator places its output.
 * `clean-exclude`: our `index.html` is not generated, but written manually. To preserve it across publications we need to use this property otherwise default behaviour is to delete all files that do not exist in the source folder.
 
-For more details and settings on the github pages deployment page action visit [github-pages-deploy-action](https://github.com/JamesIves/github-pages-deploy-action).
+For more details and settings on the github pages deployment visit [github-pages-deploy-action](https://github.com/JamesIves/github-pages-deploy-action).
 
 ## Other Links and References
 
