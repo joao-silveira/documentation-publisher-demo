@@ -8,7 +8,9 @@ Its final result can be found [here](https://joao-silveira.github.io/markdown-la
 
 ## Why?
 
+For a long time mbeddr platform comes with a documentation language that supports a close integration with MPS languages and models. Besides plain text, chapters, sections and other means to scructure your documents, it also allows referencing MPS nodes, or even embedding them into your document as images or text. 
 
+While this close integration ensures a good experience for reading/writting documents inside MPS, we lacked a way to provide this same experience in a lightweight way (outside of MPS) for those interested parties who don't want to start a fat client just to have access to some text documentation. Markdown and Github pages are quite a good fit to this problem. Markdown itself has a simple and readable syntax in its source, and is support by many websites. Github pages have a quite low setup cost and can be easily integrated in a continous delivery workflow ensuring documentation is always up to date.
 
 ## Project Structure
 
