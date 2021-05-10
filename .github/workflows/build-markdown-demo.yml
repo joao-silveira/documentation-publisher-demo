@@ -1,4 +1,4 @@
-name: Markdown Demo
+name: Documentation publisher
 
 on:
   push:
