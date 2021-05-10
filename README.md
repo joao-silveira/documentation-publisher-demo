@@ -2,7 +2,7 @@
 
 # Documentation publisher demo
 
-This project is a blueprint for continously generating static websites in your build chain using Mbeddr documentation language, markdown and github pages.
+This project is a blueprint for continously generating static websites in your build chain using mbeddr documentation language, markdown and github pages.
 
 Its final result can be found [here](https://joao-silveira.github.io/documentation-publisher-demo/).
 
