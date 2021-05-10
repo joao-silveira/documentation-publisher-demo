@@ -31,7 +31,7 @@ Markdown is a widelly used markup language. It appeals to many people because of
 To take part of all of these advantages we have implemented a markdown language for mbeddr platform. This was developed with two major use cases in mind: As a generation target for your languages (it is not really intended for writting markdown documents inside MPS) and as the output format for your documents written with mbeddr documentation language (more on that in a second).
 
 At the current moment this language supports all of the Markdown basic syntax ([https://www.markdownguide.org/basic-syntax/](https://www.markdownguide.org/basic-syntax/)) and for those cases where Markdown can't cover your needs you can always embed html code into your markdown document.
-# Mbeddr<a name="sid3115371428123433781"></a>
+# Mbeddr Documentation Language<a name="sid3115371428123433781"></a>
 For a long time mbeddr platform comes with a documentation language that supports a close integration with MPS languages and models. Besides plain text, chapters, sections and other means to scructure your documents, it also allows referencing MPS nodes, or even embedding them into your document as images or text. Documents can be generated to HTML, Latex and now also Mardown.
 
 By the way, it might not be noticeable, but this document itself was written with MPS documentation language and exported to Markdown :).
@@ -39,17 +39,17 @@ By the way, it might not be noticeable, but this document itself was written wit
 This sections goal is to show some of the concepts available in the mbeddr documentation and how does its Markdown counterpart looks like.
 
 ## Lists<a name="sid797083449154770914"></a>
-### Unordered<a name="sid797083449154770926"></a>
+### Unordered lists<a name="sid797083449154770926"></a>
 - Item 1
 - Item 2
 - Item 3
 
-### Ordered<a name="sid797083449154770968"></a>
+### Ordered lists<a name="sid797083449154770968"></a>
 1. Ordered Item 1
 2. Ordered Item 2
 3. Ordered Item 3
 
-## Styles<a name="sid797083449154771010"></a>
+## Text styles<a name="sid797083449154771010"></a>
 This is a regular text.
 
 **This is bold text**
@@ -59,15 +59,15 @@ This is a regular text.
 <span style="background-color:yellow">[ToDo: Todo text]</span>
 ## Links<a name="sid797083449154782067"></a>
 A link to your favourtie website [https://www.youtube.com/watch?v=oHg5SJYRHA0](https://www.youtube.com/watch?v=oHg5SJYRHA0)
-## Code<a name="sid797083449154782313"></a>
+## Code style<a name="sid797083449154782313"></a>
 Denote words and paragraphs like `this`
-## ImageParagraph<a name="sid6367138909119273277"></a>
+## Embedding MPS nodes<a name="sid6367138909119273277"></a>
 This is a real MPS node embedded into the document:
 
 ![Some Java Code](../../img/MarkdownDemo_JavaCode.png)<a name="sid6367138909119282925"></a>
-## SectionRef<a name="sid603951059623514998"></a>
+## Referencing Sections<a name="sid603951059623514998"></a>
 Referencing a section also works like [Intro](#sid4007147449076628794)
-## ModelContentReference<a name="sid603951059623810414"></a>
+## Referencing MPS nodes<a name="sid603951059623810414"></a>
 You can also reference a models content like this [Main](http://127.0.0.1:63320/node?ref=r%3A862b2bb8-dc71-4c58-92cc-da64971b150f%28MarkdownDemo.samples%29%2F2860495818774672153)
 ## FootNotes<a name="sid603951059622661712"></a>
 We can also have foot notes like this <sup>1</sup>.
