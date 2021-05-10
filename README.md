@@ -59,7 +59,7 @@ The following step is responsible for publishing the website using the generated
           clean-exclude: 'index.html'
 ```
 
-* `branch`: target branch to deploy the website to. In our case it is deployed to `gh-pages` in this very same repository.
+* `branch`: target branch to deploy the website to.
 * `folder`: folder where to find the published website sources. In our case, the folder where MPS generator places its output.
 * `clean-exclude`: our `index.html` is not generated, but written manually. To preserve it across publications we need to use this property otherwise default behaviour is to delete all files that do not exist in the source folder.
 
