@@ -48,7 +48,7 @@ Exactly the same gradle command described above, it will setup the setup the MPS
 
 #### Publishing the website
 
-The following is responsible for publishing the website using the generated markdown as a source.
+The following step is responsible for publishing the website using the generated markdown as a source.
 
 ```
    - name: Deploy GitHub Pages 
