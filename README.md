@@ -10,7 +10,7 @@ Its final result can be found [here](https://joao-silveira.github.io/markdown-la
 
 For a long time mbeddr platform comes with a documentation language that supports a close integration with MPS languages and models. Besides plain text, chapters, sections and other means to scructure your documents, it also allows referencing MPS nodes, or even embedding them into your document as images or text. While this close integration ensures a good experience for reading/writting documents inside MPS, a way to provide this same experience in a lightweight way (outside of MPS) was lacking. 
 
-Markdown and Github pages are quite a good fit to the presented problem. Markdown itself has a simple and readable syntax in its source form and it is supported by many websites. Github pages have a quite low setup cost and can be easily integrated in a continous delivery workflow ensuring your published documents are always up to date.
+Markdown and Github pages are quite a good fit to this problem. Markdown itself has a simple and readable syntax in its source form and it is supported by many websites. Github pages have a quite low setup cost and can be easily integrated in a continous delivery workflow ensuring your published documents are always up to date.
 
 
 ## Project Structure
