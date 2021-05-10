@@ -4,7 +4,7 @@
 
 This project is a blueprint for continously generating static websites in your build chain using Mbeddr documentation language, markdown and github pages.
 
-Its final result can be found [here](https://joao-silveira.github.io/markdown-language-demo/).
+Its final result can be found [here](https://github.com/joao-silveira/documentation-publisher-demo).
 
 ## Why?
 
