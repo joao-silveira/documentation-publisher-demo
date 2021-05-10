@@ -26,7 +26,7 @@ If everything goes right and your build is successfull you can just open the pro
 
 ### Github action
 
-The github action can be found under the [.github/workflows](.github/workflows) folder. Its most important part is in the following lines, responsible for publishing our website:
+The github action can be found under the [.github/workflows](.github/workflows) folder. Its most important part is in the following lines, responsible for publishing the website:
 ```
    - name: Deploy GitHub Pages 
         uses: JamesIves/github-pages-deploy-action@4.1.1
@@ -34,7 +34,6 @@ The github action can be found under the [.github/workflows](.github/workflows) 
           branch: gh-pages
           folder: mps/MarkdownDemo/solutions/MarkdownDemo/doc_gen
           clean-exclude: 'index.html'
---
 ```
 * `branch` target branch to deploy the website to. In our case it is deployed to `gh-pages` in this very same repository.
 * `folder` folder where to publish the website from. Corresponds to the folder where MPS generator places its output.
